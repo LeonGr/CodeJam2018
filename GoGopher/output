@@ -1,0 +1,942 @@
+T: 3
+
+============Test case============
+A: 10
+Rows x Columns: 
+(4, 3)
+We want: rows 2 to 6 and columns 2 to 5 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 3 
+Response: 3 2 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 2 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 6 
+Response: 4 7 
+Input given: 3 6 
+Response: 3 5 
+Input given: 3 6 
+Response: 4 6 
+Input given: 3 6 
+Response: 4 7 
+Input given: 3 6 
+Response: 4 6 
+Input given: 3 6 
+Response: 4 7 
+Input given: 3 6 
+Response: 2 6 
+Input given: 3 6 
+Response: 3 7 
+Input given: 3 6 
+Response: 3 7 
+Input given: 3 6 
+Response: 3 7 
+Input given: 3 6 
+Response: 2 6 
+Input given: 3 6 
+Response: 2 7 
+Input given: 3 6 
+Response: 3 6 
+Input given: 3 6 
+Response: 4 5 
+Input given: 3 6 
+Response: 3 7 
+Input given: 3 6 
+Response: 4 7 
+Input given: 3 6 
+Response: 4 6 
+Input given: 3 6 
+Response: 2 6 
+Input given: 3 6 
+Response: 4 7 
+Input given: 3 6 
+Response: 0 0 
+Done
+Attempts: 48
+[[1 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 1 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+
+============Test case============
+A: 20
+Rows x Columns: 
+(5, 4)
+We want: rows 2 to 7 and columns 2 to 6 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 3 2 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 6 
+Response: 2 5 
+Input given: 3 6 
+Response: 2 5 
+Input given: 3 6 
+Response: 2 5 
+Input given: 3 6 
+Response: 4 5 
+Input given: 3 6 
+Response: 3 6 
+Input given: 3 6 
+Response: 2 5 
+Input given: 3 6 
+Response: 4 5 
+Input given: 3 6 
+Response: 4 7 
+Input given: 3 6 
+Response: 2 6 
+Input given: 3 6 
+Response: 4 5 
+Input given: 3 6 
+Response: 2 5 
+Input given: 3 6 
+Response: 2 5 
+Input given: 3 6 
+Response: 3 7 
+Input given: 3 6 
+Response: 4 7 
+Input given: 3 6 
+Response: 4 5 
+Input given: 3 6 
+Response: 3 6 
+Input given: 3 6 
+Response: 3 5 
+Input given: 3 6 
+Response: 3 6 
+Input given: 3 6 
+Response: 4 7 
+Input given: 3 6 
+Response: 4 5 
+Input given: 3 6 
+Response: 3 6 
+Input given: 3 6 
+Response: 4 7 
+Input given: 3 6 
+Response: 2 6 
+Input given: 3 6 
+Response: 2 5 
+Input given: 3 6 
+Response: 4 7 
+Input given: 3 6 
+Response: 3 5 
+Input given: 3 6 
+Response: 2 6 
+Input given: 3 6 
+Response: 2 7 
+Input given: 3 6 
+Response: 4 6 
+Input given: 3 6 
+Response: 3 7 
+Input given: 3 9 
+Response: 3 8 
+Input given: 3 9 
+Response: 3 9 
+Input given: 3 9 
+Response: 3 10 
+Input given: 3 9 
+Response: 3 10 
+Input given: 3 9 
+Response: 2 10 
+Input given: 3 9 
+Response: 4 8 
+Input given: 3 9 
+Response: 4 8 
+Input given: 3 9 
+Response: 3 8 
+Input given: 3 9 
+Response: 2 8 
+Input given: 3 9 
+Response: 2 8 
+Input given: 3 9 
+Response: 3 10 
+Input given: 3 9 
+Response: 2 10 
+Input given: 3 9 
+Response: 4 8 
+Input given: 3 9 
+Response: 2 8 
+Input given: 3 9 
+Response: 4 9 
+Input given: 3 9 
+Response: 2 9 
+Input given: 3 9 
+Response: 2 10 
+Input given: 3 9 
+Response: 2 10 
+Input given: 3 9 
+Response: 0 0 
+Done
+Attempts: 120
+[[1 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 1 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+
+============Test case============
+A: 80
+Rows x Columns: 
+(9, 9)
+We want: rows 2 to 11 and columns 2 to 11 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 3 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 2 2 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 3 4 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 4 2 
+Input given: 3 3 
+Response: 4 4 
+Input given: 3 3 
+Response: 2 4 
+Input given: 3 3 
+Response: 4 3 
+Input given: 3 3 
+Response: 3 2 
+Input given: 3 3 
+Response: 2 3 
+Input given: 3 6 
+Response: 4 6 
+Input given: 3 6 
+Response: 2 6 
+Input given: 3 6 
+Response: 2 6 
+Input given: 3 6 
+Response: 2 5 
+Input given: 3 6 
+Response: 3 6 
+Input given: 3 6 
+Response: 3 5 
+Input given: 3 6 
+Response: 2 7 
+Input given: 3 6 
+Response: 4 5 
+Input given: 3 6 
+Response: 3 7 
+Input given: 3 6 
+Response: 4 6 
+Input given: 3 6 
+Response: 4 6 
+Input given: 3 6 
+Response: 4 5 
+Input given: 3 6 
+Response: 2 6 
+Input given: 3 6 
+Response: 2 5 
+Input given: 3 6 
+Response: 2 7 
+Input given: 3 6 
+Response: 4 5 
+Input given: 3 6 
+Response: 2 6 
+Input given: 3 6 
+Response: 3 7 
+Input given: 3 6 
+Response: 3 5 
+Input given: 3 6 
+Response: 4 5 
+Input given: 3 6 
+Response: 3 6 
+Input given: 3 6 
+Response: 3 5 
+Input given: 3 6 
+Response: 3 6 
+Input given: 3 6 
+Response: 3 7 
+Input given: 3 6 
+Response: 3 7 
+Input given: 3 6 
+Response: 4 7 
+Input given: 3 6 
+Response: 4 5 
+Input given: 3 9 
+Response: 4 10 
+Input given: 3 9 
+Response: 3 9 
+Input given: 3 9 
+Response: 4 10 
+Input given: 3 9 
+Response: 4 8 
+Input given: 3 9 
+Response: 3 9 
+Input given: 3 9 
+Response: 3 10 
+Input given: 3 9 
+Response: 3 10 
+Input given: 3 9 
+Response: 3 8 
+Input given: 3 9 
+Response: 3 10 
+Input given: 3 9 
+Response: 3 8 
+Input given: 3 9 
+Response: 3 10 
+Input given: 3 9 
+Response: 4 10 
+Input given: 3 9 
+Response: 2 8 
+Input given: 3 9 
+Response: 4 10 
+Input given: 3 9 
+Response: 3 9 
+Input given: 3 9 
+Response: 3 10 
+Input given: 3 9 
+Response: 3 10 
+Input given: 3 9 
+Response: 4 9 
+Input given: 3 9 
+Response: 4 9 
+Input given: 3 9 
+Response: 2 10 
+Input given: 3 9 
+Response: 2 10 
+Input given: 3 9 
+Response: 2 9 
+Input given: 3 9 
+Response: 3 10 
+Input given: 6 3 
+Response: 6 3 
+Input given: 6 3 
+Response: 7 4 
+Input given: 6 3 
+Response: 6 2 
+Input given: 6 3 
+Response: 6 2 
+Input given: 6 3 
+Response: 6 3 
+Input given: 6 3 
+Response: 7 3 
+Input given: 6 3 
+Response: 6 3 
+Input given: 6 3 
+Response: 5 2 
+Input given: 6 3 
+Response: 7 4 
+Input given: 6 3 
+Response: 7 2 
+Input given: 6 3 
+Response: 6 4 
+Input given: 6 3 
+Response: 5 4 
+Input given: 6 3 
+Response: 6 2 
+Input given: 6 3 
+Response: 6 2 
+Input given: 6 3 
+Response: 7 3 
+Input given: 6 3 
+Response: 7 4 
+Input given: 6 3 
+Response: 5 2 
+Input given: 6 3 
+Response: 7 3 
+Input given: 6 3 
+Response: 6 4 
+Input given: 6 3 
+Response: 5 3 
+Input given: 6 3 
+Response: 5 2 
+Input given: 6 6 
+Response: 6 7 
+Input given: 6 6 
+Response: 7 5 
+Input given: 6 6 
+Response: 7 6 
+Input given: 6 6 
+Response: 6 5 
+Input given: 6 6 
+Response: 5 5 
+Input given: 6 6 
+Response: 7 5 
+Input given: 6 6 
+Response: 6 7 
+Input given: 6 6 
+Response: 5 6 
+Input given: 6 6 
+Response: 6 7 
+Input given: 6 6 
+Response: 5 7 
+Input given: 6 6 
+Response: 6 7 
+Input given: 6 6 
+Response: 5 6 
+Input given: 6 6 
+Response: 6 7 
+Input given: 6 6 
+Response: 6 6 
+Input given: 6 6 
+Response: 6 7 
+Input given: 6 6 
+Response: 6 6 
+Input given: 6 6 
+Response: 6 7 
+Input given: 6 6 
+Response: 6 5 
+Input given: 6 6 
+Response: 6 5 
+Input given: 6 6 
+Response: 5 5 
+Input given: 6 6 
+Response: 6 7 
+Input given: 6 6 
+Response: 7 6 
+Input given: 6 6 
+Response: 7 7 
+Input given: 6 6 
+Response: 5 5 
+Input given: 6 9 
+Response: 7 9 
+Input given: 6 9 
+Response: 7 10 
+Input given: 6 9 
+Response: 7 9 
+Input given: 6 9 
+Response: 7 9 
+Input given: 6 9 
+Response: 5 8 
+Input given: 6 9 
+Response: 7 9 
+Input given: 6 9 
+Response: 5 8 
+Input given: 6 9 
+Response: 5 8 
+Input given: 6 9 
+Response: 7 10 
+Input given: 6 9 
+Response: 5 9 
+Input given: 6 9 
+Response: 7 8 
+Input given: 6 9 
+Response: 5 9 
+Input given: 6 9 
+Response: 7 8 
+Input given: 6 9 
+Response: 5 10 
+Input given: 6 9 
+Response: 6 8 
+Input given: 6 9 
+Response: 7 8 
+Input given: 6 9 
+Response: 7 10 
+Input given: 6 9 
+Response: 6 8 
+Input given: 6 9 
+Response: 7 8 
+Input given: 6 9 
+Response: 6 8 
+Input given: 6 9 
+Response: 6 10 
+Input given: 6 9 
+Response: 6 8 
+Input given: 6 9 
+Response: 6 8 
+Input given: 6 9 
+Response: 5 8 
+Input given: 6 9 
+Response: 7 8 
+Input given: 6 9 
+Response: 5 8 
+Input given: 6 9 
+Response: 6 8 
+Input given: 6 9 
+Response: 5 9 
+Input given: 6 9 
+Response: 7 10 
+Input given: 6 9 
+Response: 6 8 
+Input given: 6 9 
+Response: 6 8 
+Input given: 6 9 
+Response: 6 10 
+Input given: 6 9 
+Response: 7 10 
+Input given: 6 9 
+Response: 6 8 
+Input given: 6 9 
+Response: 6 9 
+Input given: 6 9 
+Response: 5 8 
+Input given: 9 3 
+Response: 8 2 
+Input given: 9 3 
+Response: 8 2 
+Input given: 9 3 
+Response: 8 3 
+Input given: 9 3 
+Response: 8 4 
+Input given: 9 3 
+Response: 8 4 
+Input given: 9 3 
+Response: 10 3 
+Input given: 9 3 
+Response: 9 2 
+Input given: 9 3 
+Response: 9 2 
+Input given: 9 3 
+Response: 9 3 
+Input given: 9 3 
+Response: 10 3 
+Input given: 9 3 
+Response: 10 3 
+Input given: 9 3 
+Response: 9 3 
+Input given: 9 3 
+Response: 8 3 
+Input given: 9 3 
+Response: 9 2 
+Input given: 9 3 
+Response: 8 4 
+Input given: 9 3 
+Response: 8 4 
+Input given: 9 3 
+Response: 10 3 
+Input given: 9 3 
+Response: 8 4 
+Input given: 9 3 
+Response: 8 2 
+Input given: 9 3 
+Response: 9 3 
+Input given: 9 3 
+Response: 10 4 
+Input given: 9 3 
+Response: 10 3 
+Input given: 9 3 
+Response: 10 2 
+Input given: 9 3 
+Response: 10 3 
+Input given: 9 3 
+Response: 8 3 
+Input given: 9 3 
+Response: 10 3 
+Input given: 9 3 
+Response: 10 3 
+Input given: 9 3 
+Response: 9 4 
+Input given: 9 3 
+Response: 9 3 
+Input given: 9 6 
+Response: 8 5 
+Input given: 9 6 
+Response: 8 7 
+Input given: 9 6 
+Response: 9 7 
+Input given: 9 6 
+Response: 10 5 
+Input given: 9 6 
+Response: 9 5 
+Input given: 9 6 
+Response: 9 5 
+Input given: 9 6 
+Response: 8 6 
+Input given: 9 6 
+Response: 9 7 
+Input given: 9 6 
+Response: 9 5 
+Input given: 9 6 
+Response: 9 7 
+Input given: 9 6 
+Response: 8 7 
+Input given: 9 6 
+Response: 10 7 
+Input given: 9 6 
+Response: 9 7 
+Input given: 9 6 
+Response: 8 7 
+Input given: 9 6 
+Response: 9 7 
+Input given: 9 6 
+Response: 10 5 
+Input given: 9 6 
+Response: 10 7 
+Input given: 9 6 
+Response: 8 6 
+Input given: 9 6 
+Response: 8 5 
+Input given: 9 6 
+Response: 9 5 
+Input given: 9 6 
+Response: 10 5 
+Input given: 9 6 
+Response: 10 5 
+Input given: 9 6 
+Response: 10 6 
+Input given: 9 6 
+Response: 8 5 
+Input given: 9 6 
+Response: 9 5 
+Input given: 9 6 
+Response: 8 5 
+Input given: 9 6 
+Response: 10 6 
+Input given: 9 6 
+Response: 10 6 
+Input given: 9 6 
+Response: 10 6 
+Input given: 9 6 
+Response: 8 5 
+Input given: 9 6 
+Response: 10 7 
+Input given: 9 6 
+Response: 10 7 
+Input given: 9 6 
+Response: 8 5 
+Input given: 9 6 
+Response: 10 7 
+Input given: 9 6 
+Response: 8 7 
+Input given: 9 6 
+Response: 8 7 
+Input given: 9 6 
+Response: 9 7 
+Input given: 9 6 
+Response: 8 5 
+Input given: 9 6 
+Response: 8 5 
+Input given: 9 6 
+Response: 10 5 
+Input given: 9 6 
+Response: 9 7 
+Input given: 9 6 
+Response: 10 6 
+Input given: 9 6 
+Response: 9 6 
+Input given: 9 6 
+Response: 10 6 
+Input given: 9 9 
+Response: 9 10 
+Input given: 9 9 
+Response: 9 8 
+Input given: 9 9 
+Response: 9 10 
+Input given: 9 9 
+Response: 8 9 
+Input given: 9 9 
+Response: 10 8 
+Input given: 9 9 
+Response: 9 10 
+Input given: 9 9 
+Response: 10 10 
+Input given: 9 9 
+Response: 10 10 
+Input given: 9 9 
+Response: 10 9 
+Input given: 9 9 
+Response: 8 10 
+Input given: 9 9 
+Response: 9 8 
+Input given: 9 9 
+Response: 8 8 
+Input given: 9 9 
+Response: 9 10 
+Input given: 9 9 
+Response: 9 10 
+Input given: 9 9 
+Response: 10 9 
+Input given: 9 9 
+Response: 10 10 
+Input given: 9 9 
+Response: 8 8 
+Input given: 9 9 
+Response: 9 8 
+Input given: 9 9 
+Response: 8 10 
+Input given: 9 9 
+Response: 10 9 
+Input given: 9 9 
+Response: 8 10 
+Input given: 9 9 
+Response: 10 9 
+Input given: 9 9 
+Response: 10 10 
+Input given: 9 9 
+Response: 9 10 
+Input given: 9 9 
+Response: 10 10 
+Input given: 9 9 
+Response: 9 8 
+Input given: 9 9 
+Response: 9 8 
+Input given: 9 9 
+Response: 0 0 
+Done
+Attempts: 280
+[[1 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 1 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
